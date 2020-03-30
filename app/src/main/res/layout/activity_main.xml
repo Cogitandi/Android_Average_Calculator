@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bigone"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:id="@+id/main_mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+
+        <TextView
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="50dp"
+            android:fontFamily="serif-monospace"
+            android:gravity="center"
+            android:text="@string/main_LogoTV"
+            android:textColor="#E9FFFFFF"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#FDF6CA">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:weightSum="10">
+
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:inputType="textPersonName"
+                    android:paddingRight="10dp"
+                    android:text="@string/mainFirstNameTV"
+                    android:textColor="#F44336"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/main_firstNameET"
+                    android:layout_width="0dp"
+                    android:layout_weight="8"
+                    android:digits="AaĄąBbCcĆćDdEeĘęFfGgHhIiJjKkLlŁłMmNnŃńOoÓóPpRrSsŚśTtUuWwYyZzŹźŻż"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="@string/mainFirstNameHint"
+                    android:inputType="textNoSuggestions|textPersonName|text"
+                    android:textColorHint="#9981B396" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:weightSum="10">
+
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:text="@string/mainSurnameTV"
+                    android:textColor="#FF9800"
+                    android:textColorHint="#03A9F4"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/main_surnameET"
+                    android:layout_width="0dp"
+                    android:layout_weight="8"
+                    android:digits="AaĄąBbCcĆćDdEeĘęFfGgHhIiJjKkLlŁłMmNnŃńOoÓóPpRrSsŚśTtUuWwYyZzŹźŻż"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="@string/mainSurnameTVHint"
+                    android:inputType="textPersonName"
+                    android:textColorHighlight="#F44336"
+                    android:textColorHint="#03A9F4" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:weightSum="10">
+
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:paddingRight="10dp"
+                    android:text="@string/mainGradesAmountTV"
+                    android:textColor="#009688"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/main_gradesAmountET"
+                    android:layout_width="0dp"
+                    android:layout_weight="8"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="@string/mainGradesAmountHint"
+                    android:inputType="number"
+                    android:textColorHighlight="#FF9800"
+                    android:textColorHint="#9C27B0" />
+            </TableRow>
+
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/main_averageTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/main_submitBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:width="250dp"
+            android:background="#FF5722"
+            android:focusableInTouchMode="false"
+            android:text="@string/mainSubmitButton"
+            android:visibility="gone" />
+
+    </LinearLayout>
+</ScrollView>

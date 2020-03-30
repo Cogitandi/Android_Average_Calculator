@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">FirstApp</string>
+    <string name="app_label">Calculate your average!</string>
+    <string name="main_LogoTV">Sprawdź średnią</string>
+
+    <string name="mainFirstNameTV">Twoje imię</string>
+    <string name="mainFirstNameHint">Wprowadź imię</string>
+
+    <string name="mainSurnameTV">Twoje nazwisko</string>
+    <string name="mainSurnameTVHint">Wprowadź nazwisko</string>
+    <string name="mainGradesAmountTV">Liczba ocen</string>
+    <string name="mainGradesAmountHint">Podaj liczbe ocen</string>
+    <string name="mainSubmitButton">Oceny</string>
+
+    <string name="mainIncorretFirstName">Nieprawidłowe imię</string>
+    <string name="mainIncorretSurname">Nieprawidłowe nazwisko</string>
+    <string name="mainIncorretGradesAmount">Liczba ocen musi być z przedziału od 5 do 15</string>
+
+    <string name="mainGoodTextBTN">Super :)</string>
+    <string name="mainBadBTextBTN">Tym razem mi nie poszło</string>
+
+    <string name="mainErrorGradesToast">Musisz wprowadzić informacje o ocenach!</string>
+    <string name="mainPassToast">Gratulacje! Otrzymujesz zaliczenie!</string>
+    <string name="mainFailureToast">Wysyłam podanie o zaliczenie warunkowe!</string>
+
+    <string name="gradesDoneBTN">Gotowe</string>
+    <string name="gradeGroupGrade">Ocena</string>
+    <string name="gradesNotChoosedGradesToast">Zaznacz swoje oceny!</string>
+</resources>
